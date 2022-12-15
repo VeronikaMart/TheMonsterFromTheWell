@@ -1,0 +1,61 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags: []
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - Game Borders
+  - Player
+  - Ground
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Background
+    uniqueID: 2784495675
+    locked: 0
+  - name: Environment
+    uniqueID: 976419589
+    locked: 0
+  - name: Traps
+    uniqueID: 1025188803
+    locked: 0
+  - name: Border
+    uniqueID: 3553404741
+    locked: 0
+  - name: Platforms
+    uniqueID: 596629963
+    locked: 0
+  - name: Decorations
+    uniqueID: 3900192561
+    locked: 0
+  - name: Default
+    uniqueID: 0
+    locked: 0
