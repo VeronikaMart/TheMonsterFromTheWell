@@ -337,9 +337,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2098125707739067018}
-  - component: {fileID: 1263770041103444067}
   - component: {fileID: 4842439321052146029}
   - component: {fileID: 483253947778845762}
+  - component: {fileID: 1263770041103444067}
   m_Layer: 4
   m_Name: Water
   m_TagString: Untagged
@@ -365,22 +365,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1263770041103444067
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2098125707739067019}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4e8e5fc2b98752e449d95a86b17ac918, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  speed: 0.5
-  maxWaterLevel: 59
-  treasureCollected:
-    state: {fileID: 11400000, guid: b7699537b2e18f544b70c9a0858834b5, type: 2}
 --- !u!61 &4842439321052146029
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -426,6 +410,22 @@ BuoyancyEffector2D:
   m_FlowAngle: 0
   m_FlowMagnitude: 0
   m_FlowVariation: 0
+--- !u!114 &1263770041103444067
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2098125707739067019}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e8e5fc2b98752e449d95a86b17ac918, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 1.5
+  maxWaterLevel: 59
+  treasureCollected:
+    state: {fileID: 11400000, guid: b7699537b2e18f544b70c9a0858834b5, type: 2}
 --- !u!1 &4820711661845725314
 GameObject:
   m_ObjectHideFlags: 0

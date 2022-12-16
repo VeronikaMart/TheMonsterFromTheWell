@@ -3504,18 +3504,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 1252990465}
-        m_TargetAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
-        m_MethodName: Stop
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
 --- !u!1 &440452213
 GameObject:
   m_ObjectHideFlags: 0
@@ -19135,9 +19123,9 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1263770041103444067, guid: a2861411c34c6ba409dd20afd7e6a98d,
         type: 3}
-      propertyPath: speed
-      value: 1
-      objectReference: {fileID: 0}
+      propertyPath: waterSound
+      value: 
+      objectReference: {fileID: 1252990465}
     - target: {fileID: 2098125707739067018, guid: a2861411c34c6ba409dd20afd7e6a98d,
         type: 3}
       propertyPath: m_RootOrder
